@@ -10,7 +10,7 @@ from bank_app import app, BANK
 from bank.account import Account
 
 @step(u'Given I create account "([^"]*)" with balance of "([^"]*)"')
-def given_i_create_accoung_group1_with_balance_of_group2(step, group1, group2):
+def given_i_create_account_group1_with_balance_of_group2(step, group1, group2):
     a = Account(group1, group2)
     BANK.add_account(a)
 

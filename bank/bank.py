@@ -1,9 +1,9 @@
 class Bank(object):
-	def __init__(self):
-		self.accounts = {}
+    def __init__(self):
+        self.accounts = {}
 
-	def get_account_balance(self, account_number):
-		return self.accounts.get(account_number)
+    def get_account_balance(self, account_number):
+        return self.accounts.get(account_number)
 
-	def add_account(self, account):
-		self.accounts[account.account_number] = account.balance
+    def add_account(self, account):
+        self.accounts[account.account_number] = account.balance
