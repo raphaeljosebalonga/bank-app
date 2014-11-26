@@ -1,5 +1,5 @@
 import unittest
-from test.account import Account
+from bank.account import Account
 
 class TestAccount(unittest.TestCase):
 	def test_account_object_can_be_created(self):
