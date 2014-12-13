@@ -23,6 +23,8 @@ class BankTest(unittest.TestCase):
 
     def test_get_account_balance(self):
         bank = Bank()
+        self.assertEqual({}, bank.accounts)
+        self.assertEqual(len(bank.accounts), 0)
 
         account_1 = Account(001, 50)
 
