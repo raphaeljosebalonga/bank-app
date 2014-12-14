@@ -3,7 +3,7 @@ from paver.easy import *
 
 @task
 def unit_tests():
-    sh('nosetests test/unit')
+    sh('nosetests --with-coverage test/unit')
 
 @task
 def lettuce_tests():
