@@ -7,7 +7,7 @@ class Bank(object):
 
     def get_account_balance(self, account_number): # pragma: no cover
         """ Getter Method """
-        return self.accounts.get(account_number) # pragma: no cover
+        return self.accounts.get(account_number)
 
     def add_account(self, account):
         """ Setter Method """
