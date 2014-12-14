@@ -30,8 +30,6 @@ class BankTest(unittest.TestCase):
 
         bank.add_account(account_1)
 
-        self.assertEqual(bank.accounts.get(001), 50)
-
         self.assertEqual(bank.get_account_balance(001), 50)
 
 if __name__ == '__main__':
