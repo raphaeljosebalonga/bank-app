@@ -5,9 +5,9 @@ class Bank(object):
     def __init__(self):
         self.accounts = {}
 
-    def get_account_balance(self, account_number): #pragma: no cover
+    def get_account_balance(self, account_number): # pragma: no cover
         """ Getter Method """
-        return self.accounts.get(account_number) #pragma: no cover
+        return self.accounts.get(account_number) # pragma: no cover
 
     def add_account(self, account):
         """ Setter Method """
